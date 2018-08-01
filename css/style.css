@@ -1,6 +1,6 @@
 body {
   font-family: 'IBM Plex Sans', sans-serif !important;
-  padding: 100px 50px;
+  padding: 0 50px;
 }
 
 ul {
@@ -75,8 +75,14 @@ a:hover {
   transform: translate3d(0px, 0px, 0px);
 }
 
+@media (max-width: 576px) {
+    body {
+      padding: 0;
+    }
+}
+
 @media (max-width: 992px) {
     h6 {
-      text-align: left !important;
+      text-align: left;
     }
 }
