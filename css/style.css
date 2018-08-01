@@ -8,10 +8,6 @@ ul {
   padding: 0;
 }
 
-h1 {
-  font-size: 4rem !important;
-}
-
 a i:hover {
   color: #ff9933 !important;
 }
@@ -78,6 +74,10 @@ a:hover {
 @media (max-width: 576px) {
     body {
       padding: 0;
+    }
+
+    .display-2 {
+      font-size: 3.5rem;
     }
 }
 
