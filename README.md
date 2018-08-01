@@ -1,4 +1,4 @@
-# personalwebsite
+# portfolio
 **v2.1.0**</br>
 portfolio website</br>
 [visit the page](http://jonhuber.us) | [author](#author)
