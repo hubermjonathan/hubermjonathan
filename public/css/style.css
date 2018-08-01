@@ -1,66 +1,76 @@
-body, html {
-  height: 100%;
-  margin: 0;
-  font-size: 16px;
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  line-height: 1.8em;
-  color: #666;
+body {
+  font-family: 'IBM Plex Sans', sans-serif !important;
+  padding: 100px 50px;
 }
 
-a {
-  color: #ddd;
+ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-.bg1, .bg2, .bg3 {
-  position: relative;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+h1 {
+  font-size: 4rem !important;
 }
 
-.bg1 {
-  background-image: url('../assets/1.jpg');
-  min-height: 100%;
+a i:hover {
+  color: #ff9933 !important;
 }
 
-.bg2 {
-  background-image: url('../assets/2.jpg');
-  min-height: 75%;
+a:hover {
+  text-decoration: none;
 }
 
-.bg3 {
-  background-image: url('../assets/3.jpg');
-  min-height: 75%;
+.primary-1 {
+  color: #000 !important;
 }
 
-.section {
-  text-align: center;
-  padding: 50px 80px;
-  background-color: #282e34;
-  color: #ddd;
+.primary-2 {
+  color: #333 !important;
 }
 
-.label {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: #000;
-  font-size: 27px;
-  letter-spacing: 8px;
-  text-transform: uppercase;
+.primary-3 {
+  color: #666 !important;
 }
 
-.label .border {
-  background-color: #282e34;
-  color: #ddd;
-  padding: 20px;
+.secondary {
+  color: #ff9933 !important;
 }
 
-@media(max-width: 768px) {
-  .bg1, .bg2, .bg3 {
-    background-attachment: scroll;
-  }
+.namesection .profilepicture {
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+}
+
+.mt-5 {
+  margin-top: 8rem !important;
+}
+
+.pt-50 {
+  padding-top: 15vh !important;
+}
+
+.float {
+  opacity: 0;
+  -moz-transition: all 700ms ease-out;
+  -webkit-transition: all 700ms ease-out;
+  -o-transition: all 700ms ease-out;
+  transition: all 700ms ease-out;
+  -moz-transform: translate3d(0px, 200px, 0px);
+  -webkit-transform: translate3d(0px, 200px, 0px);
+  -o-transform: translate(0px, 200px);
+  -ms-transform: translate(0px, 200px);
+  transform: translate3d(0px, 200, 0px);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.float.in-view {
+  opacity: 1;
+  -moz-transform: translate3d(0px, 0px, 0px);
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
 }
