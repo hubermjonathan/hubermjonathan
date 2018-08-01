@@ -39,11 +39,11 @@ a:hover {
 }
 
 .mt-5 {
-  margin-top: 8rem !important;
+  margin-top: 7rem !important;
 }
 
-.pt-50 {
-  padding-top: 15vh !important;
+.card-deck {
+  flex-flow: column;
 }
 
 .float {
@@ -71,18 +71,81 @@ a:hover {
   transform: translate3d(0px, 0px, 0px);
 }
 
-@media (max-width: 576px) {
-    body {
-      padding: 0;
-    }
+.fade {
+  animation: fadein 1.5s;
+  -moz-animation: fadein 1.5s;
+  -ms-animation: fadein 1.5s;
+  -webkit-animation: fadein 1.5s;
+  -o-animation: fadein 1.5s;
+}
 
-    .display-2 {
-      font-size: 3.5rem;
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-ms-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
     }
 }
 
+@media (max-width: 576px) {
+  body {
+    padding: 0
+  }
+
+  .display-2 {
+    font-size: 3.5rem;
+  }
+}
+
 @media (max-width: 992px) {
-    h6 {
-      text-align: left;
-    }
+  body {
+    text-align: center;
+  }
+
+  h6 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1500px) {
+  .card {
+    margin-top: 0 !important;
+  }
+
+  .card-deck {
+    flex-flow: row wrap;
+  }
 }
