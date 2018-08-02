@@ -1,8 +1,0 @@
-{
-  "GCLOUD_PROJECT": "huber-websites",
-  "CLOUD_BUCKET": "huber-websites-portfolio",
-  "DATA_BACKEND": "datastore",
-  "OAUTH2_CLIENT_ID": "52540833152-6lugcds0bdff8974n89oatghj1qf5bht.apps.googleusercontent.com",
-  "OAUTH2_CLIENT_SECRET": "De0Ut4EQ1-v7-oGwVZgOCugE",
-  "OAUTH2_CALLBACK": "http://localhost:8080/auth/google/callback"
-}
