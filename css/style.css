@@ -38,6 +38,11 @@ a:hover {
   width: 10rem;
 }
 
+.languageicon {
+  height: 2.5rem;
+  padding-right: 1rem;
+}
+
 .mt-5 {
   margin-top: 7rem !important;
 }
