@@ -1,3 +1,7 @@
+:root {
+  --theme-primary: #28a745;
+}
+
 body {
   font-family: 'IBM Plex Sans', sans-serif !important;
   padding: 0 50px;
@@ -9,11 +13,12 @@ ul {
 }
 
 a i:hover {
-  color: #ff9933 !important;
+  color: var(--theme-primary) !important;
 }
 
 a:hover {
   text-decoration: none;
+  transform: translateY(-1px);
 }
 
 .primary-1 {
@@ -29,7 +34,7 @@ a:hover {
 }
 
 .secondary {
-  color: #ff9933 !important;
+  color: var(--theme-primary) !important;
 }
 
 .profilepicture {
@@ -38,9 +43,12 @@ a:hover {
   width: 10rem;
 }
 
-.languageicon {
-  height: 2.5rem;
-  padding-right: 1rem;
+.languagebadge {
+  float: left;
+  margin: 0.5rem 1rem 0 0;
+  padding: 0.1rem 0.5rem;
+  border: 2px solid var(--theme-primary);
+  border-radius: .15rem;
 }
 
 .mt-5 {
@@ -49,6 +57,27 @@ a:hover {
 
 .card-deck {
   flex-flow: column;
+}
+
+.card {
+  -webkit-box-shadow: 0 4px 6px rgba(50,50,93,.11),0 1px 3px rgba(0,0,0,.08);
+  box-shadow: 0 4px 6px rgba(50,50,93,.11),0 1px 3px rgba(0,0,0,.08);
+}
+
+.card:hover {
+  transform: translateY(-1px);
+  -webkit-box-shadow: 0 4px 6px rgba(50,50,93,.22),0 1px 3px rgba(0,0,0,.08);
+  box-shadow: 0 4px 6px rgba(50,50,93,.22),0 1px 3px rgba(0,0,0,.08);
+}
+
+.card img {
+  -webkit-filter: grayscale(100%);
+   filter: grayscale(100%);
+}
+
+.card:hover img {
+  -webkit-filter: grayscale(0%);
+ filter: grayscale(0%);
 }
 
 .float {
