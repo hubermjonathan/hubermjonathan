@@ -1,11 +1,14 @@
 :root {
-  --theme-primary: rgb(250, 125, 0);
+  --background-color: #fff;
+  --text-1: #000;
+  --text-2: #333;
 }
 
 body {
   font-family: 'IBM Plex Sans', sans-serif !important;
   padding: 0;
   text-align: center;
+  background-color: var(--background-color);
 }
 
 ul {
@@ -14,7 +17,7 @@ ul {
 }
 
 a {
-  color: #000;
+  color: var(--text-1);
 }
 
 a:hover {
@@ -25,7 +28,6 @@ a:hover {
 a i:hover {
   text-decoration: none;
   transform: translateY(-1px);
-  color: var(--theme-primary) !important;
 }
 
 #landing {
@@ -44,20 +46,24 @@ a i:hover {
   padding: 0 1rem 0 0;
 }
 
-.primary-1 {
-  color: #000 !important;
+#theme-toggler {
+  position: absolute;
+  top: 0.5rem;
+  right: 1.5rem;
 }
 
-.primary-2 {
-  color: #333 !important;
+#theme-toggler i{
+  position: relative;
+  top: 0.563rem;
+  margin: 0 1rem 0 0;
 }
 
-.primary-3 {
-  color: #666 !important;
+.text-1 {
+  color: var(--text-1) !important;
 }
 
-.secondary {
-  color: var(--theme-primary) !important;
+.text-2 {
+  color: var(--text-2) !important;
 }
 
 .profilepicture {
@@ -74,7 +80,7 @@ a i:hover {
   float: left;
   margin: 0.5rem 1rem 0 0;
   padding: 0.1rem 0.5rem;
-  border: 2px solid var(--theme-primary);
+  border: 2px solid var(--text-1);
   border-radius: .15rem;
 }
 
