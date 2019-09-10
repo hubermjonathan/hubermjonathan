@@ -1,9 +1,12 @@
-$("#go-to-projects").click(function () {
-  $("#projects").removeClass("hidden");
-  $("#landing").addClass("hidden");
+let landing = document.getElementById("landing");
+let projects = document.getElementById("projects");
+
+document.getElementById("go-to-projects").addEventListener("click", () => {
+  landing.classList.add("hidden");
+  projects.classList.remove("hidden");
 });
 
-$("#go-to-landing").click(function () {
-  $("#landing").removeClass("hidden");
-  $("#projects").addClass("hidden");
+document.getElementById("go-to-landing").addEventListener("click", () => {
+  projects.classList.add("hidden");
+  landing.classList.remove("hidden");
 });
