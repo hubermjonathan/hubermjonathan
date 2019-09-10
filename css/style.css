@@ -4,7 +4,8 @@
 
 body {
   font-family: 'IBM Plex Sans', sans-serif !important;
-  padding: 0 50px;
+  padding: 0;
+  text-align: center;
 }
 
 ul {
@@ -12,8 +13,8 @@ ul {
   padding: 0;
 }
 
-a i:hover {
-  color: var(--theme-primary) !important;
+a {
+  color: #000;
 }
 
 a:hover {
@@ -22,7 +23,13 @@ a:hover {
 }
 
 #landing {
-  padding: 25vh 0 0 0;
+  padding: 8vh 0 5vh 0;
+}
+
+#icons .col-12 a i {
+  position: relative;
+  top: 0.325rem;
+  padding: 0 1rem 0 0;
 }
 
 #projects {
@@ -55,8 +62,16 @@ a:hover {
 
 .profilepicture {
   border-radius: 50%;
-  height: 10rem;
-  width: 10rem;
+  height: 6.5rem;
+  width: 6.5rem;
+}
+
+.display-2 {
+  font-size: 4rem;
+}
+
+.long-email {
+  display: none;
 }
 
 .languagebadge {
@@ -72,7 +87,7 @@ a:hover {
 }
 
 .mt-5 {
-  margin-top: 7rem !important;
+  margin-top: 4rem !important;
 }
 
 .mb-5 {
@@ -104,32 +119,54 @@ a:hover {
   display: none;
 }
 
+@media (min-width: 576px) {
+  body {
+    padding: 0 50px;
+  }
+
+  .mt-5 {
+    margin-top: 7rem !important;
+  }
+}
+
+@media (min-width: 768px) {
+  #landing {
+    padding: 25vh 0 0 0;
+  }
+
+  #icons {
+    margin-top: 0 !important;
+    text-align: left;
+  }
+
+  .profilepicture {
+    height: 10rem;
+    width: 10rem;
+  }
+}
+
+@media (min-width: 780px) {
+  .short-email {
+    display: none;
+  }
+
+  .long-email {
+    display: inline-block;
+  }
+}
+
 @media (min-width: 992px) {
+  body {
+    text-align: left;
+  }
+
   #icons {
     justify-content: center !important;
   }
 }
 
-@media (max-width: 576px) {
-  #landing {
-    padding: 10vh 0 0 0;
-  }
-
-  body {
-    padding: 0
-  }
-
+@media (min-width: 1450px) {
   .display-2 {
-    font-size: 4rem;
-  }
-}
-
-@media (max-width: 992px) {
-  body {
-    text-align: center;
-  }
-
-  h6 {
-    text-align: center;
+    font-size: 5.5rem;
   }
 }
