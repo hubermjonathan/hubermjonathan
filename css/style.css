@@ -56,6 +56,10 @@ a:hover {
   margin-top: 7rem !important;
 }
 
+.mb-5 {
+  margin-bottom: 7rem !important;
+}
+
 .card-deck {
   flex-flow: column;
 }
