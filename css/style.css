@@ -48,14 +48,12 @@ a i:hover {
 
 #theme-toggler {
   position: absolute;
-  top: 0.5rem;
+  top: 1.5rem;
   right: 1.5rem;
 }
 
-#theme-toggler i{
-  position: relative;
-  top: 0.563rem;
-  margin: 0 1rem 0 0;
+#theme-toggler {
+  cursor: pointer;
 }
 
 .text-1 {

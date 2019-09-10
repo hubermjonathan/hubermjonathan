@@ -11,7 +11,7 @@ document.getElementById("go-to-landing").addEventListener("click", () => {
   landing.classList.remove("hidden");
 });
 
-document.getElementById("change-theme").addEventListener("change", () => {
+document.getElementById("theme-toggler").addEventListener("click", () => {
   console.log(getComputedStyle(document.documentElement).getPropertyValue("--background-color"));
   if (getComputedStyle(document.documentElement).getPropertyValue("--background-color") === "#fff" || getComputedStyle(document.documentElement).getPropertyValue("--background-color") === " #fff") {
     document.documentElement.style.setProperty("--background-color", "#000");
@@ -23,7 +23,7 @@ document.getElementById("change-theme").addEventListener("change", () => {
       cards[i].classList.add("bg-dark");
     }
 
-    let icon = document.getElementById("theme-icon");
+    let icon = document.getElementById("theme-toggler");
     icon.classList.add("fas");
     icon.classList.remove("far");
   } else {
@@ -36,7 +36,7 @@ document.getElementById("change-theme").addEventListener("change", () => {
       cards[i].classList.remove("bg-dark");
     }
 
-    let icon = document.getElementById("theme-icon");
+    let icon = document.getElementById("theme-toggler");
     icon.classList.add("far");
     icon.classList.remove("fas");
   }
