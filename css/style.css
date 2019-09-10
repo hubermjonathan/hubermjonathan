@@ -22,12 +22,10 @@ a {
 
 a:hover {
   text-decoration: none;
-  transform: translateY(-1px);
 }
 
 a i:hover {
   text-decoration: none;
-  transform: translateY(-1px);
 }
 
 #landing {
