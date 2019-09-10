@@ -52,16 +52,16 @@ a:hover {
   border-radius: .15rem;
 }
 
+.languagebadge i {
+  padding: 0 0.3rem 0 0;
+}
+
 .mt-5 {
   margin-top: 7rem !important;
 }
 
 .mb-5 {
   margin-bottom: 7rem !important;
-}
-
-.card-deck {
-  flex-flow: column;
 }
 
 .card {
@@ -180,11 +180,5 @@ a:hover {
 }
 
 @media (min-width: 1500px) {
-  .card {
-    margin-top: 0 !important;
-  }
 
-  .card-deck {
-    flex-flow: row wrap;
-  }
 }
