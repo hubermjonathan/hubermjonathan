@@ -22,14 +22,14 @@ a:hover {
   transform: translateY(-1px);
 }
 
-#landing {
-  padding: 8vh 0 5vh 0;
+a i:hover {
+  text-decoration: none;
+  transform: translateY(-1px);
+  color: var(--theme-primary) !important;
 }
 
-#icons .col-12 a i {
-  position: relative;
-  top: 0.325rem;
-  padding: 0 1rem 0 0;
+#landing {
+  padding: 20vh 0 0 0;
 }
 
 #projects {
@@ -67,11 +67,7 @@ a:hover {
 }
 
 .display-2 {
-  font-size: 4rem;
-}
-
-.long-email {
-  display: none;
+  font-size: 3rem;
 }
 
 .languagebadge {
@@ -90,10 +86,6 @@ a:hover {
   margin-top: 4rem !important;
 }
 
-.mb-5 {
-  margin-bottom: 7rem !important;
-}
-
 .card {
   -webkit-box-shadow: 0 4px 6px rgba(50,50,93,.11),0 1px 3px rgba(0,0,0,.08);
   box-shadow: 0 4px 6px rgba(50,50,93,.11),0 1px 3px rgba(0,0,0,.08);
@@ -103,16 +95,6 @@ a:hover {
   transform: translateY(-1px);
   -webkit-box-shadow: 0 4px 6px rgba(50,50,93,.22),0 1px 3px rgba(0,0,0,.08);
   box-shadow: 0 4px 6px rgba(50,50,93,.22),0 1px 3px rgba(0,0,0,.08);
-}
-
-.card img {
-  -webkit-filter: grayscale(100%);
-   filter: grayscale(100%);
-}
-
-.card:hover img {
-  -webkit-filter: grayscale(0%);
- filter: grayscale(0%);
 }
 
 .hidden {
@@ -130,42 +112,19 @@ a:hover {
 }
 
 @media (min-width: 768px) {
-  #landing {
-    padding: 25vh 0 0 0;
-  }
-
-  #icons {
-    margin-top: 0 !important;
-    text-align: left;
-  }
-
   .profilepicture {
     height: 10rem;
     width: 10rem;
   }
 
-  .mb-5 {
-    margin-bottom: 1.5rem !important;
-  }
-}
-
-@media (min-width: 780px) {
-  .short-email {
-    display: none;
-  }
-
-  .long-email {
-    display: inline-block;
+  .display-2 {
+    font-size: 5rem;
   }
 }
 
 @media (min-width: 992px) {
   body {
     text-align: left;
-  }
-
-  #icons {
-    justify-content: center !important;
   }
 }
 
