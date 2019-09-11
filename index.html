@@ -2,14 +2,14 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <title>Jon Huber | Portfolio</title>
+  <title>jon huber</title>
 
   <!-- meta -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description"
-    content="Hi, my name is Jon Huber and I am a junior studying Computer Science at Purdue University. Come check out my work!">
-  <meta name="author" content="Jon Huber">
+    content="portfolio website for jon huber">
+  <meta name="author" content="jon huber">
 
   <!-- js -->
   <script async src="js/toggler.js"></script>
@@ -29,7 +29,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
   <link rel="manifest" href="assets/favicon/site.webmanifest">
-  <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#ff9933">
+  <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#000000">
   <link rel="shortcut icon" href="assets/favicon/favicon.ico">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-config" content="assets/favicon/browserconfig.xml">
@@ -38,249 +38,40 @@
 
 <body>
   <div class="container-fluid">
-    <!-- landing section -->
-    <div id="landing" class="text-center">
-      <!-- picture -->
-      <img class="profilepicture" src="assets/profilepicture.jpeg" />
-
-      <!-- name -->
-      <h1 class="display-2 text-1 mt-3">Jon Huber</h1>
-
-      <!-- description -->
-      <h5 class="text-2">aspiring software engineer</h5>
-
-      <!-- icons section -->
-      <div id="icons" class="mt-5 row justify-content-around">
-        <a href="assets/resume.pdf" title="read my resume">
-          <i class="fas fa-file fa-2x text-1"></i>
-        </a>
-        <a id="go-to-projects" href="#projects" title="view my projects">
-          <i class="fas fa-code fa-2x text-1"></i>
-        </a>
-        <a href="mailto:jon@huberrrr.com" title="email me at jon@huberrrr.com">
-          <i class="fas fa-paper-plane fa-2x text-1"></i>
-        </a>
-        <a href="https://github.com/Huberrrr" data-html="true" title="git checkout my-github">
-          <i class="fab fa-github fa-2x text-1"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/huberrrr/" title="connect with me on linkedin">
-          <i class="fab fa-linkedin fa-2x text-1"></i>
-        </a>
+    <div id="page" class="row align-items-center">
+      <div class="col-6 text-right">
+        <h1><b>jon huber</b></h1>
       </div>
 
-      <!-- theme toggler -->
-      <i id="theme-toggler" class="far fa-moon fa-2x text-1"></i>
-    </div>
+      <div class="col-6 text-left">
+        <h4>
+          <a href="assets/resume.pdf" title="read my resume">
+            resume
+          </a>
+        </h4>
 
-    <!-- projects section -->
-    <div id="projects" class="row hidden">
-      <div class="col-lg-12 mb-4">
-        <a id="go-to-landing" href="#landing" title="head back">
-          <h3 class="text-1 text-center">
-            <i class="fas fa-chevron-left text-1"></i>
-            projects
-          </h3>
-        </a>
-      </div>
+        <h4>
+          <a href="mailto:jon@huberrrr.com" title="email me at jon@huberrrr.com">
+            jon@huberrrr.com
+          </a>
+        </h4>
 
-      <div class="col-sm-12 col-lg-6 col-xl-4">
-        <div class="card mb-4">
-          <div class="card-header">
-            <h4 class="card-title text-1">Pulse Voter Representative Site</h4>
-            <div class="languagebadge text-1"><i class="fab fa-html5 text-1"></i> HTML</div>
-            <div class="languagebadge text-1"><i class="fab fa-css3-alt text-1"></i>CSS
-            </div>
-            <div class="languagebadge text-1"><i class="fab fa-js-square text-1"></i>JavaScript</div>
-            <div class="languagebadge text-1"><i class="fab fa-react text-1"></i>React</div>
-            <div class="languagebadge text-1"><i class="fab fa-node-js text-1"></i>Node.js
-            </div>
-            <div class="languagebadge text-1"><i class="fas fa-database text-1"></i>SQL
-            </div>
-          </div>
-          <div class="card-body">
-            <p class="card-text text-2">
-              At Pulse Voter, I redeveloped the site for elected officials from the ground up and added more features
-              including: a restful API, a customized homepage, options for representatives to export information about
-              a bill and its votes to a CSV file, a Google Map showing all the voters in their district and their
-              information/voting history, and in-depth statistics on specific bills. Representatives actively use this
-              site to view bills currently in Congress and analyze voter opinions in their district.
-            </p>
-            <p class="card-text text-2">
-              Since the website is protected by a login system, check out the image deck <b><a class="text-1"
-                  href="assets/projects/pulse/deck.pdf">here</a></b> to see my work!
-            </p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">April 2018 - August 2018</small>
-          </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12 col-lg-6 col-xl-4">
-        <div class="card mb-4">
-          <div class="card-header">
-            <h4 class="card-title text-1">Halo Wars 2 Statistics Discord Bot</h4>
-            <div class="languagebadge text-1"><i class="fab fa-js-square text-1"></i>JavaScript</div>
-            <div class="languagebadge text-1"><i class="fab fa-node-js text-1"></i>Node.js
-            </div>
-          </div>
-          <div class="card-body">
-            <p class="card-text text-2">
-              As a side project during my second semester of college, I decided that I wanted to explore the world of
-              Discord (an online chat service centered around gaming) and its chat bots. I found a game that didn't
-              have any existing statistics bots, Halo Wars 2, and I created one for the community. The bot provides
-              players their statistics in every gamemode, and even compiles their data to give them an overall look at
-              their career for the game. It maintained an average of 1000 active users in 10 dedicated communities.
-            </p>
-            <p class="card-text text-2">
-              Check out the image deck <b><a class="text-1" href="assets/projects/discordbot/deck.pdf">here</a></b>
-              or visit my GitHub to see the project!
-            </p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">April 2018 - September 2018</small>
-          </div>
-        </div>
-      </div>
+        <h4>
+          <a href="https://github.com/Huberrrr" data-html="true" title="git checkout my-github">
+            github.com/huberrrr
+          </a>
+        </h4>
 
-      <div class="col-sm-12 col-lg-6 col-xl-4">
-        <div class="card mb-4">
-          <div class="card-header">
-            <h4 class="card-title text-1">Programmers of Catan</h4>
-            <div class="languagebadge text-1"><i class="fab fa-js-square text-1"></i>JavaScript</div>
-            <div class="languagebadge text-1"><i class="fab fa-css3-alt text-1"></i>CSS
-            </div>
-            <div class="languagebadge text-1"><i class="fab fa-react text-1"></i>React
-              Native</div>
-            <div class="languagebadge text-1"><i class="fab fa-python text-1"></i>Python
-            </div>
-            <div class="languagebadge text-1"><i class="fas fa-flask text-1"></i>Flask</div>
-          </div>
-          <div class="card-body">
-            <p class="card-text text-2">
-              For the IBM Intern Hacakthon our group wanted to use artificial intelligence to build something fun. The
-              idea we came up with was a mobile app that would help you play the board game Catan. Because of the time
-              restriction, we decided to start out with just having the app suggest the optimal opening move.
-              Throughout those two hectic days I acted as team leader, created the frontend in React Native, and
-              integrated backend algorithms together with the frontend. By the end of it, our minimum viable product
-              was all written and working, we just did not have enough time to train our image recognition model to be
-              as accurate as we wanted.
-            </p>
-            <p class="card-text text-2">
-              Check out the presentation <b><a class="text-1" href="assets/projects/catan/deck.pdf">here</a></b> or
-              visit my GitHub pins to see the project!
-            </p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">July 2019</small>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-12 col-lg-6 col-xl-4">
-        <div class="card mb-4">
-          <div class="card-header">
-            <h4 class="card-title text-1">FitHub Workout App</h4>
-            <div class="languagebadge text-1"><i class="fab fa-js-square text-1"></i>JavaScript</div>
-            <div class="languagebadge text-1"><i class="fab fa-css3-alt text-1"></i>CSS
-            </div>
-            <div class="languagebadge text-1"><i class="fab fa-react text-1"></i>React
-              Native</div>
-            <div class="languagebadge text-1"><i class="fab fa-node-js text-1"></i>Node.js
-            </div>
-            <div class="languagebadge text-1"><i class="fas fa-database text-1"></i>MongoDB
-            </div>
-          </div>
-          <div class="card-body">
-            <p class="card-text text-2">
-              For our software engineering class, our team designed and created a mobile workout logging application
-              using the Agile methodology. The inspiration came from several of our members being frustrated with how
-              lack-luster the current applications available were. Our design choices were pretty simple: we picked
-              React Native in order to develop for all platforms easily and MongoDB because our members had previous
-              experience. My main contribution was on the frontend side because I was the one with the most
-              experience, so I would be useful in helping other members learn. I ended up designing and creating the
-              calendar page, profile page, and nutrition pages.
-            </p>
-            <p class="card-text text-2">
-              Check out the image deck <b><a class="text-1" href="assets/projects/fithub/deck.pdf">here</a></b> or
-              visit my GitHub pins to see the project!
-            </p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">February 2019 - April 2019</small>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-12 col-lg-6 col-xl-4">
-        <div class="card mb-4">
-          <div class="card-header">
-            <h4 class="card-title text-1">Totally Accurate Chat Server</h4>
-            <div class="languagebadge text-1"><i class="fab fa-html5 text-1"></i>HTML</div>
-            <div class="languagebadge text-1"><i class="fab fa-css3-alt text-1"></i>CSS
-            </div>
-            <div class="languagebadge text-1"><i class="fab fa-js-square text-1"></i>JavaScript</div>
-            <div class="languagebadge text-1"><i class="fab fa-react text-1"></i>React</div>
-            <div class="languagebadge text-1"><i class="fab fa-node-js text-1"></i>Node.js
-            </div>
-            <div class="languagebadge text-1"><i class="fas fa-database text-1"></i>MongoDB
-            </div>
-          </div>
-          <div class="card-body">
-            <p class="card-text text-2">
-              For an open ended project in our systems programming class, a couple of my friends and I created an
-              online chat server using the MERN stack that translates every message sent through 4 languages and then
-              back to English. While setting up this project, I learned a lot about the importance of project
-              structure, bundlers, and dev ops. For this project, I worked as a full stack developer. I designed and
-              implemented the frontend from scratch, and also helped out on the backend with the sockets.
-            </p>
-            <p class="card-text text-2">
-              Unfortunately, I forgot to get screenshots before the backend of the project was deleted from Google
-              Cloud, but you can visit my GitHub pins to see the project!
-            </p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">April 2019</small>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-12 col-lg-6 col-xl-4">
-        <div class="card mb-4">
-          <div class="card-header">
-            <h4 class="card-title text-1">CheckPlease PoS System</h4>
-            <div class="languagebadge text-1"><i class="fab fa-html5 text-1"></i>HTML</div>
-            <div class="languagebadge text-1"><i class="fab fa-css3-alt text-1"></i>CSS
-            </div>
-            <div class="languagebadge text-1"><i class="fab fa-js-square text-1"></i>JavaScript</div>
-            <div class="languagebadge text-1"><i class="fab fa-react text-1"></i>React</div>
-            <div class="languagebadge text-1"><i class="fab fa-node-js text-1"></i>Node.js
-            </div>
-            <div class="languagebadge text-1"><i class="fas fa-database text-1"></i>MongoDB
-            </div>
-          </div>
-          <div class="card-body">
-            <p class="card-text text-2">
-              For DemonHacks 2018, our team decided to create a restaurant point-of-sale system because one of our
-              members' dad needed one that wasn't terrible for his restaurant. We decided to use the MERN stack hosted
-              on Google Cloud because it was the perfect balanace of previous knowledge and new stuff for a hackathon.
-              I was tasked with creating the entire React frontend including: a home page with items and checkout
-              function, a management page for adding/editing/deleting items in the MongoDB database, and a transaction
-              log. I also managed the project structure so that 4 members of the team could all efficiently work on a
-              different part at the same time.
-            </p>
-            <p class="card-text text-2">
-              Check out the image deck <b><a class="text-1" href="assets/projects/checkplease/deck.pdf">here</a></b>
-              or visit my GitHub stars to see the
-              project!
-            </p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">October 2018</small>
-          </div>
-        </div>
+        <h4>
+          <a href="https://www.linkedin.com/in/huberrrr/" title="connect with me on linkedin">
+            linkedin.com/in/huberrrr
+          </a>
+        </h4>
       </div>
     </div>
+
+    <i id="theme-toggler" class="far fa-moon fa-2x text-1"></i>
   </div>
 </body>
 

@@ -1,47 +1,27 @@
 :root {
-  --background-color: #fff;
-  --text-1: #000;
-  --text-2: #333;
+  --background: #fff;
+  --text: #000;
+  --text-hover: #333;
 }
 
 body {
   font-family: 'IBM Plex Sans', sans-serif !important;
   padding: 0;
-  text-align: center;
-  background-color: var(--background-color);
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
+  background-color: var(--background);
+  color: var(--text);
 }
 
 a {
-  color: var(--text-1);
+  color: var(--text);
 }
 
 a:hover {
+  color: var(--text-hover);
   text-decoration: none;
 }
 
-a i:hover {
-  text-decoration: none;
-}
-
-#landing {
-  padding: 20vh 0 0 0;
-}
-
-#projects {
-  padding: 10vh 0 0 0;
-}
-
-#go-to-landing {
-  vertical-align: bottom;
-}
-
-#go-to-landing i {
-  padding: 0 1rem 0 0;
+#page {
+  height: 100vh;
 }
 
 #theme-toggler {
@@ -52,86 +32,4 @@ a i:hover {
 
 #theme-toggler {
   cursor: pointer;
-}
-
-.text-1 {
-  color: var(--text-1) !important;
-}
-
-.text-2 {
-  color: var(--text-2) !important;
-}
-
-.profilepicture {
-  border-radius: 50%;
-  height: 6.5rem;
-  width: 6.5rem;
-}
-
-.display-2 {
-  font-size: 3rem;
-}
-
-.languagebadge {
-  float: left;
-  margin: 0.5rem 1rem 0 0;
-  padding: 0.1rem 0.5rem;
-  border: 2px solid var(--text-1);
-  border-radius: .15rem;
-}
-
-.languagebadge i {
-  padding: 0 0.3rem 0 0;
-}
-
-.mt-5 {
-  margin-top: 4rem !important;
-}
-
-.card {
-  -webkit-box-shadow: 0 4px 6px rgba(50,50,93,.11),0 1px 3px rgba(0,0,0,.08);
-  box-shadow: 0 4px 6px rgba(50,50,93,.11),0 1px 3px rgba(0,0,0,.08);
-}
-
-.card:hover {
-  transform: translateY(-1px);
-  -webkit-box-shadow: 0 4px 6px rgba(50,50,93,.22),0 1px 3px rgba(0,0,0,.08);
-  box-shadow: 0 4px 6px rgba(50,50,93,.22),0 1px 3px rgba(0,0,0,.08);
-}
-
-.hidden {
-  display: none;
-}
-
-@media (min-width: 576px) {
-  body {
-    padding: 0 50px;
-  }
-
-  .mt-5 {
-    margin-top: 7rem !important;
-  }
-}
-
-@media (min-width: 768px) {
-  .profilepicture {
-    height: 10rem;
-    width: 10rem;
-  }
-
-  .display-2 {
-    font-size: 5rem;
-  }
-}
-
-@media (min-width: 992px) {
-  body {
-    text-align: left;
-  }
-}
-
-@media (min-width: 1450px) {
-  .display-2 {
-    font-size: 5.5rem;
-  }
 }
