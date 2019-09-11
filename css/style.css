@@ -41,11 +41,6 @@ a:hover {
 }
 
 @media (min-width: 768px) {
-  #page {
-    -ms-flex-align: center !important;
-    align-items: center !important;    
-  }
-
   #name {
     text-align: right !important;
     -ms-flex-item-align: center !important;
@@ -54,5 +49,7 @@ a:hover {
 
   #links {
     text-align: left !important;
+    -ms-flex-item-align: center !important;
+    align-self: center !important;
   }
 }
