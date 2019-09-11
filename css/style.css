@@ -9,6 +9,7 @@ body {
   padding: 0;
   background-color: var(--background);
   color: var(--text);
+  text-align: center;
 }
 
 a {
@@ -24,6 +25,11 @@ a:hover {
   height: 100vh;
 }
 
+#name {
+  -ms-flex-item-align: end !important;
+  align-self: flex-end !important;
+}
+
 #theme-toggler {
   position: absolute;
   top: 1.5rem;
@@ -32,4 +38,21 @@ a:hover {
 
 #theme-toggler {
   cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  #page {
+    -ms-flex-align: center !important;
+    align-items: center !important;    
+  }
+
+  #name {
+    text-align: right !important;
+    -ms-flex-item-align: center !important;
+    align-self: center !important;
+  }
+
+  #links {
+    text-align: left !important;
+  }
 }
