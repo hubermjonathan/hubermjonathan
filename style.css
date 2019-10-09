@@ -9,6 +9,10 @@
   padding: 0;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   font-family: 'IBM Plex Sans', sans-serif;
   background-color: var(--background);
@@ -35,7 +39,7 @@ h1 {
     "name" 1fr
     "links" 1fr
     / 1fr;
-  height: 100vh;
+  height: 100%;
   text-align: center;
 }
 
