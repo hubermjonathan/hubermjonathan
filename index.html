@@ -11,8 +11,6 @@
   <meta name="author" content="jon huber">
 
   <!-- css -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   <style>
     @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700&display=swap');
 
@@ -75,6 +73,7 @@
       top: 1.5rem;
       right: 1.5rem;
       cursor: pointer;
+      fill: var(--text);
     }
 
     @media (min-width: 768px) {
@@ -139,7 +138,11 @@
   </div>
 
   <!-- theme toggler -->
-  <i id="theme-toggler" class="far fa-moon fa-2x"></i>
+  <svg id="theme-toggler" xmlns="http://www.w3.org/2000/svg" width="64px" height="64px" viewBox="0 0 32 40" x="0px" y="0px">
+    <g data-name="Layer 2">
+      <path d="M23.14,25.24a10.41,10.41,0,0,1,0-18.49A2,2,0,0,0,22.73,3a13.3,13.3,0,0,0-3.82-.42A13.58,13.58,0,0,0,6,15.6,13.38,13.38,0,0,0,22.75,29a2,2,0,0,0,1.48-1.7A2,2,0,0,0,23.14,25.24Zm-3.75,2.15A11.39,11.39,0,0,1,8,15.66a11.55,11.55,0,0,1,11-11h.4A11,11,0,0,1,22.22,5a12.41,12.41,0,0,0,0,22A11.28,11.28,0,0,1,19.39,27.39Z"/>
+    </g>
+  </svg>
   <script async>
     document.getElementById("theme-toggler").addEventListener("click", () => {
       if (getComputedStyle(document.documentElement).getPropertyValue("--background") === "#fff"
@@ -149,16 +152,14 @@
         document.documentElement.style.setProperty("--text-hover", "#ccc");
 
         let icon = document.getElementById("theme-toggler");
-        icon.classList.add("fas");
-        icon.classList.remove("far");
+        icon.innerHTML = '<g data-name="Layer 2"><path d="M23.14,25.24a10.41,10.41,0,0,1,0-18.49A2,2,0,0,0,22.73,3a13.3,13.3,0,0,0-3.82-.42A13.58,13.58,0,0,0,6,15.6,13.38,13.38,0,0,0,22.75,29a2,2,0,0,0,1.48-1.7A2,2,0,0,0,23.14,25.24Z"/></g>'
       } else {
         document.documentElement.style.setProperty("--background", "#fff");
         document.documentElement.style.setProperty("--text", "#000");
         document.documentElement.style.setProperty("--text-hover", "#333");
 
         let icon = document.getElementById("theme-toggler");
-        icon.classList.add("far");
-        icon.classList.remove("fas");
+        icon.innerHTML = '<g data-name="Layer 2"><path d="M23.14,25.24a10.41,10.41,0,0,1,0-18.49A2,2,0,0,0,22.73,3a13.3,13.3,0,0,0-3.82-.42A13.58,13.58,0,0,0,6,15.6,13.38,13.38,0,0,0,22.75,29a2,2,0,0,0,1.48-1.7A2,2,0,0,0,23.14,25.24Zm-3.75,2.15A11.39,11.39,0,0,1,8,15.66a11.55,11.55,0,0,1,11-11h.4A11,11,0,0,1,22.22,5a12.41,12.41,0,0,0,0,22A11.28,11.28,0,0,1,19.39,27.39Z"/></g>';
       }
     });
   </script>
