@@ -12,7 +12,10 @@
 
   <!-- css -->
   <style>
-    @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700&display=swap');
+    @font-face {
+      font-family: plex;
+      src:url("plex.ttf");
+    }
 
     :root {
       --background: #fff;
@@ -27,7 +30,7 @@
 
     html, body {
       height: 100%;
-      font-family: 'IBM Plex Sans', sans-serif;
+      font-family: plex, sans-serif;
       background-color: var(--background);
       color: var(--text);
     }
