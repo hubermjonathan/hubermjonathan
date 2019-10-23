@@ -7,19 +7,95 @@
   <!-- meta -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="portfolio website for jon huber">
+  <meta name="description" content="jon huber's portfolio website">
   <meta name="author" content="jon huber">
-
-  <!-- js -->
-  <script async src="toggler.js"></script>
 
   <!-- css -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
     integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-  <link
-    href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700&display=swap');
+
+    :root {
+      --background: #fff;
+      --text: #000;
+      --text-hover: #333;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'IBM Plex Sans', sans-serif;
+      background-color: var(--background);
+      color: var(--text);
+    }
+
+    a {
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: var(--text-hover);
+      text-decoration: none;
+    }
+
+    h1 {
+      font-size: 3rem;
+    }
+
+    #page {
+      display: grid;
+      grid-template:
+        "name" 1fr
+        "links" 1fr
+        / 1fr;
+      height: 100%;
+      text-align: center;
+    }
+
+    #name {
+      grid-area: name;
+      align-self: end;
+      padding: 1rem;
+    }
+
+    #links {
+      grid-area: links;
+      align-self: start;
+      padding: 1rem;
+    }
+
+    #theme-toggler {
+      position: absolute;
+      top: 1.5rem;
+      right: 1.5rem;
+      cursor: pointer;
+    }
+
+    @media (min-width: 768px) {
+      #page {
+        grid-template:
+          "name links" 1fr
+          / 1fr 1fr;
+      }
+
+      #name {
+        align-self: center;
+        justify-self: end;
+      }
+
+      #links {
+        align-self: center;
+        justify-self: start;
+        text-align: left;
+      }
+    }
+  </style>
 
   <!-- favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
@@ -64,6 +140,28 @@
 
   <!-- theme toggler -->
   <i id="theme-toggler" class="far fa-moon fa-2x"></i>
+  <script async>
+    document.getElementById("theme-toggler").addEventListener("click", () => {
+      if (getComputedStyle(document.documentElement).getPropertyValue("--background") === "#fff"
+      || getComputedStyle(document.documentElement).getPropertyValue("--background") === " #fff") {
+        document.documentElement.style.setProperty("--background", "#000");
+        document.documentElement.style.setProperty("--text", "#fff");
+        document.documentElement.style.setProperty("--text-hover", "#ccc");
+
+        let icon = document.getElementById("theme-toggler");
+        icon.classList.add("fas");
+        icon.classList.remove("far");
+      } else {
+        document.documentElement.style.setProperty("--background", "#fff");
+        document.documentElement.style.setProperty("--text", "#000");
+        document.documentElement.style.setProperty("--text-hover", "#333");
+
+        let icon = document.getElementById("theme-toggler");
+        icon.classList.add("far");
+        icon.classList.remove("fas");
+      }
+    });
+  </script>
 </body>
 
 </html>
