@@ -19,9 +19,9 @@
     }
 
     :root {
-      --background: #fff;
-      --text: #000;
-      --text-hover: #333;
+      --background: #000;
+      --text: #fff;
+      --text-hover: #ccc;
     }
 
     * {
@@ -38,41 +38,28 @@
 
     a {
       color: var(--text);
-      text-decoration: none;
     }
 
     a:hover {
       color: var(--text-hover);
-      text-decoration: none;
     }
 
     h1 {
-      font-size: 3rem;
-    }
-
-    h2 {
-      margin: 0.125rem 0;
+      font-size: 2rem;
     }
 
     #page {
       display: grid;
       grid-template:
-        "name" 1fr
-        "links" 1fr
+        "text" 1fr
         / 1fr;
       height: 100%;
       text-align: center;
     }
 
-    #name {
-      grid-area: name;
-      align-self: end;
-      padding: 1rem;
-    }
-
-    #links {
-      grid-area: links;
-      align-self: start;
+    #text {
+      grid-area: text;
+      place-self: center;
       padding: 1rem;
     }
 
@@ -82,25 +69,6 @@
       right: 1.5rem;
       cursor: pointer;
       fill: var(--text);
-    }
-
-    @media (min-width: 768px) {
-      #page {
-        grid-template:
-          "name links" 1fr
-          / 1fr 1fr;
-      }
-
-      #name {
-        align-self: center;
-        justify-self: end;
-      }
-
-      #links {
-        align-self: center;
-        justify-self: start;
-        text-align: left;
-      }
     }
   </style>
 
@@ -117,39 +85,17 @@
 <body>
   <div id="page">
     <!-- name section -->
-    <div id="name">
-      <h1><b>jon huber</b></h1>
-    </div>
-
-    <!-- links section -->
-    <div id="links">
-      <!-- resume -->
-      <h2>
-        <a href="resume.pdf" title="read my resume">resume</a>
-      </h2>
-
-      <!-- email -->
-      <h2>
-        <a href="mailto:jon@huberrrr.com" title="email me at jon@huberrrr.com">jon@huberrrr.com</a>
-      </h2>
-
-      <!-- github -->
-      <h2>
-        <a href="https://github.com/Huberrrr" title="git checkout my-github">github.com/huberrrr</a>
-      </h2>
-
-      <!-- linkedin -->
-      <h2>
-        <a href="https://www.linkedin.com/in/huberrrr/" title="connect with me on linkedin">linkedin.com/in/huberrrr</a>
-      </h2>
+    <div id="text">
+        <h1><b>having a personal portfolio page is overrated.</b></h1></br></br>
+        <h1><b>if you wanna know more about me, <a href="https://www.linkedin.com/in/hubermjonathan/" title="linkedin">visit my linkedin</a></b></h1>
+        <h1><b>if you wanna talk to me, <a href="mailto:hello@hubermjonathan.com" title="hello@hubermjonathan@gmail.com">email hello@hubermjonathan.com</a></b></h1>
     </div>
   </div>
 
   <!-- theme toggler -->
   <svg id="theme-toggler" xmlns="http://www.w3.org/2000/svg" width="64px" height="64px" viewBox="0 0 32 40" x="0px" y="0px">
     <g data-name="Layer 2">
-      <path d="M23.14,25.24a10.41,10.41,0,0,1,0-18.49A2,2,0,0,0,22.73,3a13.3,13.3,0,0,0-3.82-.42A13.58,13.58,0,0,0,6,15.6,13.38,13.38,0,0,0,22.75,29a2,2,0,0,0,1.48-1.7A2,2,0,0,0,23.14,25.24Zm-3.75,2.15A11.39,11.39,0,0,1,8,15.66a11.55,11.55,0,0,1,11-11h.4A11,11,0,0,1,22.22,5a12.41,12.41,0,0,0,0,22A11.28,11.28,0,0,1,19.39,27.39Z"/>
-    </g>
+      <path d="M23.14,25.24a10.41,10.41,0,0,1,0-18.49A2,2,0,0,0,22.73,3a13.3,13.3,0,0,0-3.82-.42A13.58,13.58,0,0,0,6,15.6,13.38,13.38,0,0,0,22.75,29a2,2,0,0,0,1.48-1.7A2,2,0,0,0,23.14,25.24Z"/>    </g>
   </svg>
   <script async>
     document.getElementById("theme-toggler").addEventListener("click", () => {
