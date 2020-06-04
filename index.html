@@ -24,16 +24,16 @@
       --text-hover: #ccc;
     }
 
-    * {
-      margin: 0;
-      padding: 0;
+    html, body {
+      background-color: var(--background);
+      padding-top: 12.5vh;
     }
 
-    html, body {
-      height: 100%;
+    h1 {
       font-family: plex, sans-serif;
-      background-color: var(--background);
+      font-size: 1.5rem;
       color: var(--text);
+      text-align: center;
     }
 
     a {
@@ -44,31 +44,18 @@
       color: var(--text-hover);
     }
 
-    h1 {
-      font-size: 2rem;
-    }
-
-    #page {
-      display: grid;
-      grid-template:
-        "text" 1fr
-        / 1fr;
-      height: 100%;
-      text-align: center;
-    }
-
-    #text {
-      grid-area: text;
-      place-self: center;
-      padding: 1rem;
-    }
-
     #theme-toggler {
       position: absolute;
       top: 1.5rem;
       right: 1.5rem;
       cursor: pointer;
       fill: var(--text);
+    }
+
+    @media (min-width: 768px) {
+      h1 {
+        font-size: 2rem;
+      }
     }
   </style>
 
@@ -83,14 +70,9 @@
 </head>
 
 <body>
-  <div id="page">
-    <!-- name section -->
-    <div id="text">
-        <h1><b>having a personal portfolio page is overrated.</b></h1></br></br>
-        <h1><b>if you wanna know more about me, <a href="https://www.linkedin.com/in/hubermjonathan/" title="linkedin">visit my linkedin</a></b></h1>
-        <h1><b>if you wanna talk to me, <a href="mailto:hello@hubermjonathan.com" title="hello@hubermjonathan@gmail.com">email hello@hubermjonathan.com</a></b></h1>
-    </div>
-  </div>
+  <h1>having a personal portfolio page is overrated.</h1></br></br>
+  <h1>if you wanna know more about me, <a href="https://www.linkedin.com/in/hubermjonathan/" title="linkedin">visit my linkedin</a></h1>
+  <h1>if you wanna talk to me, <a href="mailto:hello@hubermjonathan.com" title="hello@hubermjonathan@gmail.com">email hello@hubermjonathan.com</a></h1>
 
   <!-- theme toggler -->
   <svg id="theme-toggler" xmlns="http://www.w3.org/2000/svg" width="64px" height="64px" viewBox="0 0 32 40" x="0px" y="0px">
