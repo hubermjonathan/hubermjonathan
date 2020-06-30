@@ -2,60 +2,45 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <title>jon huber</title>
+  <title>Jon Huber</title>
 
   <!-- meta -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="jon huber's portfolio website">
-  <meta name="author" content="jon huber">
+  <meta name="description" content="Jon Huber's Portfolio">
+  <meta name="author" content="Jon Huber">
 
   <!-- css -->
   <style>
     @font-face {
-      font-family: plex;
+      font-family: montserrat;
       font-display: swap;
-      src:url("plex.ttf");
-    }
-
-    :root {
-      --background: #000;
-      --text: #fff;
-      --text-hover: #ccc;
+      src: url("montserrat.ttf");
     }
 
     html, body {
-      background-color: var(--background);
-      padding-top: 15vh;
+      background-color: #121212;
+      padding-top: 8%;
+      font-family: montserrat, sans-serif;
+      color: #ffffff;
+      text-align: center;
+      opacity: 0.87;
     }
 
     h1 {
-      font-family: plex, sans-serif;
-      font-size: 1.5rem;
-      color: var(--text);
-      text-align: center;
+      font-size: 4rem;
+    }
+
+    h2 {
+      font-size: 1.75rem;
     }
 
     a {
-      color: var(--text);
+      color: #ffffff;
     }
 
     a:hover {
-      color: var(--text-hover);
-    }
-
-    #theme-toggler {
-      position: absolute;
-      top: 1.5rem;
-      right: 1.5rem;
-      cursor: pointer;
-      fill: var(--text);
-    }
-
-    @media (min-width: 768px) {
-      h1 {
-        font-size: 2rem;
-      }
+      color: #ffffff;
     }
   </style>
 
@@ -72,34 +57,8 @@
 </head>
 
 <body>
-  <h1>having a personal portfolio page is overrated.</h1>
-  <h1>check out my resume <a href="resume.pdf" title="resume">here</a></h1>
-
-  <!-- theme toggler -->
-  <svg id="theme-toggler" xmlns="http://www.w3.org/2000/svg" width="64px" height="64px" viewBox="0 0 32 40" x="0px" y="0px">
-    <g data-name="Layer 2">
-      <path d="M23.14,25.24a10.41,10.41,0,0,1,0-18.49A2,2,0,0,0,22.73,3a13.3,13.3,0,0,0-3.82-.42A13.58,13.58,0,0,0,6,15.6,13.38,13.38,0,0,0,22.75,29a2,2,0,0,0,1.48-1.7A2,2,0,0,0,23.14,25.24Z"/>    </g>
-  </svg>
-  <script async>
-    document.getElementById("theme-toggler").addEventListener("click", () => {
-      if (getComputedStyle(document.documentElement).getPropertyValue("--background") === "#fff"
-      || getComputedStyle(document.documentElement).getPropertyValue("--background") === " #fff") {
-        document.documentElement.style.setProperty("--background", "#000");
-        document.documentElement.style.setProperty("--text", "#fff");
-        document.documentElement.style.setProperty("--text-hover", "#ccc");
-
-        let icon = document.getElementById("theme-toggler");
-        icon.innerHTML = '<g data-name="Layer 2"><path d="M23.14,25.24a10.41,10.41,0,0,1,0-18.49A2,2,0,0,0,22.73,3a13.3,13.3,0,0,0-3.82-.42A13.58,13.58,0,0,0,6,15.6,13.38,13.38,0,0,0,22.75,29a2,2,0,0,0,1.48-1.7A2,2,0,0,0,23.14,25.24Z"/></g>'
-      } else {
-        document.documentElement.style.setProperty("--background", "#fff");
-        document.documentElement.style.setProperty("--text", "#000");
-        document.documentElement.style.setProperty("--text-hover", "#333");
-
-        let icon = document.getElementById("theme-toggler");
-        icon.innerHTML = '<g data-name="Layer 2"><path d="M23.14,25.24a10.41,10.41,0,0,1,0-18.49A2,2,0,0,0,22.73,3a13.3,13.3,0,0,0-3.82-.42A13.58,13.58,0,0,0,6,15.6,13.38,13.38,0,0,0,22.75,29a2,2,0,0,0,1.48-1.7A2,2,0,0,0,23.14,25.24Zm-3.75,2.15A11.39,11.39,0,0,1,8,15.66a11.55,11.55,0,0,1,11-11h.4A11,11,0,0,1,22.22,5a12.41,12.41,0,0,0,0,22A11.28,11.28,0,0,1,19.39,27.39Z"/></g>';
-      }
-    });
-  </script>
+  <h1>Portfolio pages are overrated.</h1>
+  <h2>Check out my <a href="https://linkedin.com/in/hubermjonathan">LinkedIn</a></h2>
 </body>
 
 </html>
