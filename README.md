@@ -12,9 +12,9 @@
 
 ### 📚 &nbsp; my current projects:
 
-- 📕 &nbsp; [an app to store recipes and easily create shopping lists](https://github.com/hubermjonathan/cookbook)
-- 🎧 &nbsp; [an unlimited version of heardle](https://github.com/hubermjonathan/heardle)
-- 💿 &nbsp; [a modern day record player](https://github.com/hubermjonathan/phonograph)
+- 📕 &nbsp; [cookbook - an app to store recipes and easily create shopping lists](https://github.com/hubermjonathan/cookbook)
+- 🎧 &nbsp; [heardle - an unlimited version of heardle](https://github.com/hubermjonathan/heardle)
+- 💿 &nbsp; [phonograph - a modern day record player](https://github.com/hubermjonathan/phonograph)
 
 ---
 
