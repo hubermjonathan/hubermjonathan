@@ -2,19 +2,19 @@
 <p align="center"><img src="hey.gif" width="400" height="225" title="hey" alt="hey"></p>
 
 ### 👤 &nbsp; about me:
-
-- 🧑🏻‍🦰 &nbsp; my name is jon (he/him) and i am a creative problem-solver
+- 👨‍💻 &nbsp; my name is jon (he/him) and i am a creative problem-solver
 - 💻 &nbsp; i'm currently working for [offerup](https://offerup.com) as a software development engineer on the communications team in seattle
 - 🚂 &nbsp; i graduated from [purdue university](https://purdue.edu) in 2021 with a degree in computer science
-- 🍪 &nbsp; i've been perfecting my [chocolate chip cookie](https://raw.githubusercontent.com/hubermjonathan/hubermjonathan/main/cookie.jpeg) recipe
+- 🍪 &nbsp; i've been perfecting my [chocolate chip cookie recipe](https://raw.githubusercontent.com/hubermjonathan/hubermjonathan/main/cookie.jpeg) recipe
 - 📫 &nbsp; feel free to reach me at hello@hubermjonathan.com or find my resume [here](https://hubermjonathan.com/resume.pdf)
 
 ---
 
 ### 📚 &nbsp; my current projects:
 
+- 📕 &nbsp; [an app to store recipes and easily create shopping lists](https://github.com/hubermjonathan/cookbook)
 - 🎧 &nbsp; [an unlimited version of heardle](https://github.com/hubermjonathan/heardle)
-- 💿 &nbsp; [a modern day record player](https://github.com/hubermjonathan/turntable)
+- 💿 &nbsp; [a modern day record player](https://github.com/hubermjonathan/phonograph)
 
 ---
 
@@ -24,6 +24,7 @@
 <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="javascript" alt="javascript" width="40" height="40"/>&nbsp;
 <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="react" alt="react" width="40" height="40"/>&nbsp;
 <img src="https://github.com/devicons/devicon/blob/master/icons/redux/redux-original.svg" title="redux" alt="redux" width="40" height="40"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/swift/swift-original.svg" title="swift" alt="swift" width="40" height="40"/>&nbsp;
 <img src="https://github.com/devicons/devicon/blob/master/icons/graphql/graphql-plain-wordmark.svg" title="graphql" alt="graphql" width="40" height="40"/>&nbsp;
 <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original-wordmark.svg" title="java" alt="java" width="40" height="40"/>&nbsp;
 <img src="https://github.com/devicons/devicon/blob/master/icons/spring/spring-original-wordmark.svg" title="spring" alt="spring" width="40" height="40"/>&nbsp;
