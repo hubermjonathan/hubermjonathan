@@ -6,7 +6,7 @@
 - 💻 &nbsp; i'm currently working for [offerup](https://offerup.com) as a software development engineer on the communications team in seattle
 - 🚂 &nbsp; i graduated from [purdue university](https://purdue.edu) in 2021 with a degree in computer science
 - 🍪 &nbsp; i've been perfecting my [chocolate chip cookie recipe](https://raw.githubusercontent.com/hubermjonathan/hubermjonathan/main/cookie.jpeg) recipe
-- 📫 &nbsp; feel free to reach me at hello@hubermjonathan.com or find my resume [here](https://hubermjonathan.com/resume.pdf)
+- 📫 &nbsp; feel free to reach me at hello@hubermjonathan.com or find my resume [here]([https://hubermjonathan.com/resume.pdf](https://github.com/hubermjonathan/hubermjonathan/blob/main/resume.pdf))
 
 ---
 
