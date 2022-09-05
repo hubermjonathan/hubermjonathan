@@ -5,8 +5,8 @@
 - 👨‍💻 &nbsp; my name is jon (he/him) and i am a creative problem-solver
 - 💻 &nbsp; i'm currently working for [offerup](https://offerup.com) as a software development engineer on the communications team in seattle
 - 🚂 &nbsp; i graduated from [purdue university](https://purdue.edu) in 2021 with a degree in computer science
-- 🍪 &nbsp; i've been perfecting my [chocolate chip cookie recipe](https://raw.githubusercontent.com/hubermjonathan/hubermjonathan/main/cookie.jpeg) recipe
-- 📫 &nbsp; feel free to reach me at hello@hubermjonathan.com or find my resume [here](https://hubermjonathan.com/resume.pdf)
+- 🍪 &nbsp; i've been perfecting my [chocolate chip cookie](https://raw.githubusercontent.com/hubermjonathan/hubermjonathan/main/cookie.jpeg) recipe
+- 📫 &nbsp; feel free to reach me at hello@hubermjonathan.com or find my resume [here](https://github.com/hubermjonathan/hubermjonathan/blob/main/resume.pdf)
 
 ---
 
@@ -14,7 +14,7 @@
 
 - 📕 &nbsp; [cookbook - an app to store recipes and easily create shopping lists](https://github.com/hubermjonathan/cookbook)
 - 🎧 &nbsp; [heardle - an unlimited version of heardle](https://github.com/hubermjonathan/heardle)
-- 💿 &nbsp; [phonograph - a modern day record player](https://github.com/hubermjonathan/phonograph)
+- 🤖 &nbsp; [discord bot - a discord bot for whatever stupid idea i had this week](https://github.com/hubermjonathan/discord-bot)
 
 ---
 
