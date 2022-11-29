@@ -12,7 +12,7 @@
 
 ### 📚 &nbsp; my current projects:
 
-- 📕 &nbsp; [cookbook - an app to store recipes and easily create shopping lists](https://github.com/hubermjonathan/cookbook)
+- 📕 &nbsp; [meeze - an app to store recipes and easily create shopping lists](https://apps.apple.com/us/app/meeze/id6444748866)
 - 🎧 &nbsp; [heardle - an unlimited version of heardle](https://github.com/hubermjonathan/heardle)
 - 🤖 &nbsp; [discord bot - a discord bot for whatever stupid idea i had this week](https://github.com/hubermjonathan/discord-bot)
 
