@@ -5,46 +5,53 @@
 - 👨‍💻 &nbsp; my name is jon (he/him) and i am a creative problem-solver
 - 💻 &nbsp; i'm currently working for [offerup](https://offerup.com) as a software development engineer II on the communications team in seattle
 - 🚂 &nbsp; i graduated from [purdue university](https://purdue.edu) in 2021 with a degree in computer science
-- 🍕 &nbsp; i've been perfecting my home oven [pizza](https://raw.githubusercontent.com/hubermjonathan/hubermjonathan/main/pizza.jpeg) recipe
+- 🍕 &nbsp; i've been perfecting my home oven [pizza](https://raw.githubusercontent.com/hubermjonathan/hubermjonathan/main/pizza.JPEG) recipe
 - 📫 &nbsp; feel free to reach me at hello@hubermjonathan.com or find my resume [here](https://github.com/hubermjonathan/hubermjonathan/blob/main/resume.pdf)
 
 ---
 
 ### 📚 &nbsp; my current projects:
 
-- 📕 &nbsp; [meeze](https://apps.apple.com/us/app/meeze/id6444748866) - an app to store recipes and easily create shopping lists
 - 🤖 &nbsp; [discord bot](https://github.com/hubermjonathan/discord-bot) - a discord bot for whatever stupid idea i had this week
+- 📕 &nbsp; [meeze](https://apps.apple.com/us/app/meeze/id6444748866) - an app to store recipes and easily create shopping lists
 
 ---
 
 ### 🛠 &nbsp; my favorite languages + tools :
+![react native](https://img.shields.io/badge/react_native-20232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![react](https://img.shields.io/badge/react-20232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![typescript](https://img.shields.io/badge/typescript-007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![javascript](https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![swiftui](https://img.shields.io/badge/swiftui-0897FE?style=for-the-badge&logo=swift&logoColor=white)
+![swift](https://img.shields.io/badge/swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)
+![graphql](https://img.shields.io/badge/-graphql-E10098?style=for-the-badge&logo=graphql&logoColor=white)
 
-<p>
-<img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" title="react" alt="react" width="40" height="40"/>&nbsp;
-<img src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg" title="typescript" alt="typescript" width="40" height="40"/>&nbsp;
-<img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="javascript" alt="javascript" width="40" height="40"/>&nbsp;
-<img src="https://github.com/devicons/devicon/blob/master/icons/swift/swift-original.svg" title="swift" alt="swift" width="40" height="40"/>&nbsp;
-<img src="https://github.com/devicons/devicon/blob/master/icons/graphql/graphql-plain.svg" title="graphql" alt="graphql" width="40" height="40"/>&nbsp;
-  
-<img src="https://github.com/devicons/devicon/blob/master/icons/spring/spring-original.svg" title="spring" alt="spring" width="40" height="40"/>&nbsp;
-<img src="https://github.com/devicons/devicon/blob/master/icons/kotlin/kotlin-original.svg" title="kotlin" alt="kotlin" width="40" height="40"/>&nbsp;
-<img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg" title="java" alt="java" width="40" height="40"/>&nbsp;
-<img src="https://github.com/devicons/devicon/blob/master/icons/flask/flask-original.svg" title="flask" alt="flask" width="40" height="40"/>&nbsp;
-<img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="python" alt="python" width="40" height="40"/>&nbsp;
+![spring](https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![kotlin](https://img.shields.io/badge/kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white)
+![java](https://img.shields.io/badge/java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![flask](https://img.shields.io/badge/flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-<img src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg" title="postgresql" alt="postgresql" width="40" height="40"/>&nbsp;
-<img src="https://github.com/devicons/devicon/blob/master/icons/redis/redis-original.svg" title="redis" alt="redis" width="40" height="40"/>&nbsp;
+![realm](https://img.shields.io/badge/realm-39477F?style=for-the-badge&logo=realm&logoColor=white)
+![core data](https://img.shields.io/badge/core%20data-2483C8?style=for-the-badge&logo=core%20data&logoColor=white)
+![dynamodb](https://img.shields.io/badge/amazon%20dynamodb-4053D6?style=for-the-badge&logo=amazon%20dynamodb&logoColor=white)
+![postgres](https://img.shields.io/badge/postgresql-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![sql](https://img.shields.io/badge/sql-20232a.svg?style=for-the-badge&logo=sql&logoColor=%2361DAFB)
+![redis](https://img.shields.io/badge/redis-DD0031.svg?&style=for-the-badge&logo=redis&logoColor=white)
 
-<img src="https://github.com/devicons/devicon/blob/master/icons/jest/jest-plain.svg" title="jest" alt="jest" width="40" height="40"/>&nbsp;
-<img src="https://github.com/devicons/devicon/blob/master/icons/amazonwebservices/amazonwebservices-original.svg" title="aws" alt="aws" width="40" height="40"/>&nbsp;
-<img src="https://github.com/devicons/devicon/blob/master/icons/terraform/terraform-original.svg" title="terraform" alt="terraform" width="40" height="40"/>&nbsp;
+![jest](https://img.shields.io/badge/jest-323330?style=for-the-badge&logo=Jest&logoColor=white)
+![junit](https://img.shields.io/badge/junit-4D9507?style=for-the-badge)
+![aws](https://img.shields.io/badge/amazon_aws-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![terraform](https://img.shields.io/badge/terraform-5835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
 
-<img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original.svg" title="git" alt="git" width="40" height="40"/>&nbsp;
-<img src="https://github.com/devicons/devicon/blob/master/icons/gradle/gradle-plain.svg" title="gradle" alt="gradle" width="40" height="40"/>&nbsp;
-<img src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-original.svg" title="docker" alt="docker" width="40" height="40"/>&nbsp;
-</p>
+![git](https://img.shields.io/badge/git-E44C30?style=for-the-badge&logo=git&logoColor=white)
+![flipper](https://img.shields.io/badge/flipper-754DBA.svg?style=for-the-badge&logo=flipper&logoColor=%white)
+![gradle](https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white)
+![maven](https://img.shields.io/badge/maven-C71A36?style=for-the-badge&logo=apache%20maven&logoColor=white)
+![docker](https://img.shields.io/badge/docker-0db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
 ---
 
 ### 🔥 &nbsp; my stats :
-[![github streak](http://github-readme-streak-stats.herokuapp.com?user=hubermjonathan&theme=dark&background=000000)](https://git.io/streak-stats)
+![github streak](https://github-readme-streak-stats.herokuapp.com/?user=hubermjonathan&theme=dark)
+![github languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hubermjonathan&theme=dark&include_all_commits=true&count_private=true&layout=compact)
