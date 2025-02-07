@@ -3,9 +3,9 @@
 
 ### 👤 &nbsp; about me:
 - 👨‍💻 &nbsp; my name is jon (he/him) and i am a creative problem-solver
-- 💻 &nbsp; i'm currently working for [offerup](https://offerup.com) as a software development engineer II on the communications team in seattle
+- 💻 &nbsp; i'm currently working for [offerup](https://offerup.com) as a software development engineer II with the growth loop team in seattle
 - 🚂 &nbsp; i graduated from [purdue university](https://purdue.edu) in 2021 with a degree in computer science
-- 🍕 &nbsp; i've been perfecting my home oven [pizza](https://raw.githubusercontent.com/hubermjonathan/hubermjonathan/main/pizza.JPEG) recipe
+- 🍕 &nbsp; i've been perfecting my home oven [new york-style pizza](https://raw.githubusercontent.com/hubermjonathan/hubermjonathan/main/pizza.JPEG) recipe
 - 📫 &nbsp; feel free to reach me at hello@hubermjonathan.com or find my resume [here](https://github.com/hubermjonathan/hubermjonathan/blob/main/resume.pdf)
 
 ---
