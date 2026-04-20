@@ -1,23 +1,20 @@
-<h1 align="center"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"> &nbsp; hey there!</h1>
-<p align="center"><img src="hey.gif" width="400" height="225" title="hey" alt="hey"></p>
-
-### 👤 &nbsp; about me
-- 👨‍💻 &nbsp; my name is jon (he/him) and i am a creative problem-solver
-- 💻 &nbsp; i'm currently working for [offerup](https://offerup.com) as a software development engineer II with the growth loop team in seattle
-- 🚂 &nbsp; i graduated from [purdue university](https://purdue.edu) in 2021 with a degree in computer science
-- 🍕 &nbsp; i've been perfecting my home oven [new york-style pizza](https://raw.githubusercontent.com/hubermjonathan/hubermjonathan/main/pizza.JPEG) recipe
-- 📫 &nbsp; feel free to reach me at hello@hubermjonathan.com or find my resume [here](https://github.com/hubermjonathan/hubermjonathan/blob/main/resume.pdf)
+<div>
+  <h1>Jonathan Huber</h1>
+  <img align="right" src="profile-picture.jpg" width="225" height="225" title="profile picture" alt="profile picture">
+  <h4>🥒 &nbsp; i'm probably playing pickleball...
+  <br>📬 &nbsp; feel free to reach me at <a href="mailto:hello@hubermjonathan.com">hello@hubermjonathan.com</a> or find my resume <a href="https://github.com/hubermjonathan/hubermjonathan/blob/main/resume.pdf">here</a></h4>
+</div>
 
 ---
 
-### 📚 &nbsp; my current projects
+### 📚 &nbsp; things i'm working on
 
 - 🧑‍💻 &nbsp; perfecting my claude code setup and workflow
 - ♾️ &nbsp; so many tiny utility projects built with claude
 
 ---
 
-### 🛠 &nbsp; my favorite languages + tools
+### 🛠 &nbsp; things i use
 ![java](https://img.shields.io/badge/java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![kotlin](https://img.shields.io/badge/kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white)
 ![spring](https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
@@ -43,3 +40,9 @@
 ![claude code](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white)
 ![git](https://img.shields.io/badge/git-E44C30?style=for-the-badge&logo=git&logoColor=white)
 ![gradle](https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white)
+
+---
+
+<div align="center">
+  <img src="hey.gif" width="400" height="225" title="hey" alt="hey">
+</div>
