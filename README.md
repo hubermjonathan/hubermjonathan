@@ -2,7 +2,8 @@
   <h1>Jonathan Huber</h1>
   <img align="right" src="profile-picture.jpg" width="225" height="225" title="profile picture" alt="profile picture">
   <h4>🥒 &nbsp; i'm probably playing pickleball...
-  <br>📬 &nbsp; feel free to reach me at <a href="mailto:hello@hubermjonathan.com">hello@hubermjonathan.com</a> or find my resume <a href="https://github.com/hubermjonathan/hubermjonathan/blob/main/resume.pdf">here</a></h4>
+  <br>📬 &nbsp; feel free to reach me at <a href="mailto:hello@hubermjonathan.com">hello@hubermjonathan.com</a>
+  <br>📄 &nbsp; find my resume <a href="https://github.com/hubermjonathan/hubermjonathan/blob/main/resume.pdf">here</a></h4>
 </div>
 
 ---
