@@ -12,7 +12,8 @@
 
 ### 📚 &nbsp; my current projects
 
-- 🥒 &nbsp; [how many stacks](https://github.com/hubermjonathan/discord-bot) - a paddle stacking tracker for green lake pickleball
+- 🧑‍💻 &nbsp; perfecting my claude code setup and workflow
+- ♾️ &nbsp; so many tiny utility projects built with claude
 
 ---
 
